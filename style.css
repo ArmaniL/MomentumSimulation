@@ -1,0 +1,33 @@
+canvas {
+  border-radius: 2px;
+  position:relative;
+}
+
+input {
+  border-radius: 10px;
+}
+
+button{
+border-radius: 20px;
+}
+
+body{
+  background-color: rgba(240, 240,240,12);
+}
+
+#right{
+font-family: 'Raleway', sans-serif;
+}
+
+#outside{
+width: 100%;
+font-family: 'Raleway', sans-serif;
+color: rgba(240, 240,240,20);
+background-color: rgb(97, 101, 107);
+opacity: 0.9;
+transition:  0.5s;
+}
+#outside:hover{
+opacity: 1;
+  content: ">>";
+}
